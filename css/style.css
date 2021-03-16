@@ -1,0 +1,170 @@
+
+.header_area .main-menu .navbar{
+    padding: 1rem 25rem  1rem 0rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    padding: 1rem 0rem  1rem 4rem;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background:white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: #ff442b;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .site-banner .site-title{
+    text-align: center;
+}
+
+.site-main .site-banner{
+    background:url(../img/dark-blue-plain-wall-background.jpg) no-repeat 0% 100%;
+    opacity: 0.8;
+}
+.site-main .site-banner .site-title h3{
+    padding-top:10% ;
+}
+.site-main .site-banner .site-title h1{
+    font-size: 2.5rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.3rem;
+    padding-bottom: 10%;
+}
+.site-main .site-banner .banner-image{
+    padding: 7rem 0;
+    width: 90rem ;
+}
+.title-text{
+    font: normal bold 40px/75px 'Comfortaa', cursive;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.progress{
+    margin-top: 2rem;
+    height: 1.5rem;
+  
+}
+.text-center{
+    text-align: center;
+}
+.banner-img{
+  
+    width: 15rem;
+    float: left;
+    border: solid 2px;
+    margin-left: 2rem;
+}
+
+.service-box{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contact-area{
+    max-width: 800px ;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgb(0, 0, 0,0.1);
+    padding: 30px;
+}
+.contact-area .title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    line-height: 48px;
+}
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: rgb(235, 176, 176);
+    font-size: 10px;
+    line-height: 26px;
+    font-weight: 400;
+
+
+}
+.contact-form .input-text:focus{
+    outline: none
+}
+.contact-form .label{
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    bottom: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s  ease-in-out
+
+}
+.contact-form .submit-btn{
+    display: inline-block;
+    color: #fff;
+    background: rgb(236, 142, 142);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+.card-img-top{
+    width: 6rem;
+    align-items: center;
+}
+.service-box{
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgb(0, 0, 0,0.1);
+}
+.box{
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgb(0, 0, 0,0.1);
+}
+
+
+#navbar{
+    
+        position: sticky;
+        top: 0px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    line-height: 48px;
+}
+.profile-text{
+    padding-top: 3.5rem;
+    font-weight: 600;
+}
+.about-text{
+    font-weight: 500;
+    padding-top: 3rem;
+}
