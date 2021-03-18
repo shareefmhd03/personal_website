@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -69,7 +70,7 @@
           Name    : Mohammed Shareef <br>
           Profile : Web Developer <br>
           Email   : shareef.mk03@gmail.com <br>
-          phone   : 9605511369
+          Phone   : 9605511369
 
         </div>
         <div class="col-lg-6 box about-text">
@@ -92,16 +93,16 @@
         <div class="col-lg-6 col-md-3 pt-3">
        <div>
           <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
+            <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
           </div></div>
 
           <div>
           <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS</div>
+            <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS</div>
           </div></div>
           <div>
           <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+            <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
           </div></div>
 
         
@@ -111,15 +112,15 @@
         <div class="col-lg-6 col-md-3 pt-3 ">
           <div>
           <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JAVA</div>
+            <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JAVA</div>
           </div></div>
             <div>
           <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">C</div>
+            <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">C</div>
           </div></div>
           <div>
           <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">PYTHON</div>
+            <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">PYTHON</div>
           </div></div>
           
         </div>
@@ -162,41 +163,100 @@
   </section>
 
 
-  <section class="contact-area ">
-  <h2 class="title" id="contact" >Contact</h2>
-    
-    <div class="container-fluid">
-     
-        <div class="row contact-form">
-          <div class="col-md-6 form-field">
-            <input type="text" id="name" class="input-text" name="">
-            <label for="name" class="label">name</label>
-        </div>
-        <div class="col-md-6 form-field">
-            <input type="email" id="email " class="input-text" name="">
-            <label for="email" class="label">email</label>
-        </div>
-        <div class="col-md-6 form-field">
-            <input type="text" id="company" class="input-text" name="">
-            <label for="company" class="label">company name</label>
-        </div>
-        <div class="col-md-6 form-field">
-          <input type="text" id="phone" class="input-text" name="">
-          <label for="phone" class="label">phone</label>
-      </div>
-      <div class="col-md-6 form-field">
-        <input type="text" id="message" class="input-text" name="">
-        <label for="message" class="label">message</label>
-    </div>
-    <div class="col-md-6 form-field">
-      <input type="submit" class="submit-btn" value="submit" name="">
-      
-  </div>
+<section class="mb-4 contact-area">
+
+  <!--Section heading-->
+  <h2 class="title my-4 " id="contact">Contact me</h2>
+  <!--Section description-->
+  
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-12">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
           </div>
-        </div>
+          <div class="status"></div>
       </div>
-        </div>
-  </section>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center mx-auto">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Palakkad, Kerala, India</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+91 9605511369</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>shareef.mk03@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
 
 </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

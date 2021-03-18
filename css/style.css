@@ -1,6 +1,6 @@
 
 .header_area .main-menu .navbar{
-    padding: 1rem 25rem  1rem 0rem;
+    padding: 1rem 30rem  1rem 0rem;
 }
 .header_area .main-menu .nav-item .nav-link{
     font-family: 'Comfortaa', cursive;
@@ -17,7 +17,7 @@
     background-clip: text;
 }
 .header_area .main-menu .navbar-nav a:hover{
-    background: #ff442b;
+    background: rgb(90, 202, 253);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -76,7 +76,7 @@
 }
 
 .contact-area{
-    max-width: 800px ;
+    max-width: 60rem ;
     margin: 50px auto;
     position: relative;
     box-shadow: 0 10px 30px 0 rgb(0, 0, 0,0.1);
@@ -167,4 +167,7 @@
 .about-text{
     font-weight: 500;
     padding-top: 3rem;
+}
+.contact-address{
+    
 }
