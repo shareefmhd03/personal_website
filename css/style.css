@@ -218,3 +218,9 @@ textarea {
   font-weight:200;
 }
 [type="submit"]:hover { background:#94d8ec; }
+
+
+
+.socialLinks{
+    text-align: center;
+}
