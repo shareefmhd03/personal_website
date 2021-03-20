@@ -169,7 +169,10 @@
     padding-top: 3rem;
 }
 
-
+.contact{
+   
+    position: relative;
+}
 
 
 
@@ -192,17 +195,20 @@
   width:100%;
   box-sizing: border-box;
   outline:0;
+  
 }
 
 .feedback-input:focus { border:2px solid #68d9f5; }
 
-textarea {
-  height: 150px;
+.textarea {
+   
+  height: 3rem;
   line-height: 150%;
+  width: 40rem;
   resize:vertical;
 }
 
-[type="submit"] {
+.buttton_submit {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 8rem;
   background:#39a8f1;
@@ -217,7 +223,7 @@ textarea {
   margin-top:-4px;
   font-weight:200;
 }
-[type="submit"]:hover { background:#94d8ec; }
+.buttton_submit:hover { background:#94d8ec; }
 
 
 
