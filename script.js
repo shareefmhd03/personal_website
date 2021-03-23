@@ -13,7 +13,7 @@ $("#contactForm").submit((e)=>{
                 data:$("#contactForm").serialize(),
                 method:"POST",
                 success:function (response){
-                   // alert("Form submitted successfully")
+                    alert("Form submitted successfully")
                     window.location.reload()
                     //window.location.href="https://google.com"
                 },
@@ -45,9 +45,7 @@ $("#contactForm").submit((e)=>{
               return false;
           
             }
-          //  if(!name.match([/[0-9]/) ){
-           //     producePrompt('Enter first name and Last name','name-error', 'red');
-           // }
+          
           
             producePrompt('', 'name-error', 'green');
             return true;
@@ -62,18 +60,14 @@ $("#contactForm").submit((e)=>{
                 producePrompt('Phone number is required.', 'phone-error', 'red');
                 return false;
               }
-          
+                if(phone.length != 10) {
+                producePrompt('Invalid Number', 'phone-error', 'red');
+                return false;
+              }
               if(!phone.match(/^[0-9]{10}$/)) {
                 producePrompt('Only numbers Allowed' ,'phone-error', 'red');
                 return false;
               }
-          
-              if(phone.length != 10) {
-                producePrompt('Include area code.', 'phone-error', 'red');
-                return false;
-              }
-          
-              
               producePrompt('', 'phone-error', 'green');
               return true;
           
