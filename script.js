@@ -39,7 +39,7 @@ $("#contactForm").submit((e)=>{
           
             }
           
-            if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+            if (!name.match(/^[A-Za-z]+$/)) {
           
               producePrompt('Only alphabets allowed','name-error', 'red');
               return false;
