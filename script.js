@@ -41,7 +41,7 @@ $("#contactForm").submit((e)=>{
           
             if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
           
-              producePrompt('Enter first name and Last name','name-error', 'red');
+              producePrompt('Only alphabets allowed','name-error', 'red');
               return false;
           
             }
